@@ -1,6 +1,6 @@
 ---
 
-# 💼 Loan Manager System
+# Loan Manager System
 
 A full-stack web application that facilitates the management of loan applications, approvals, and monitoring through user-friendly dashboards for Admins, Verifiers, and Users.
 
@@ -8,7 +8,7 @@ This project is built using modern technologies — **React + Vite + TypeScript*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 loan-manager/
 │
@@ -60,7 +60,7 @@ loan-manager/
 - Form validation ensures all required fields are properly submitted.
 
 ### Admin Dashboard
-- Displays total applications, and breakdown by approval status.
+- Displays total applications and breakdown by approval status.
 - Integrated with charts for better visual insight.
 - Accessible only by authorized admin roles.
 
