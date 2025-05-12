@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from '../../utils/axios'; 
+import axios from '../../services/axios'; 
 import './ApplicationForm.css';
 
 const ApplicationForm: React.FC = () => {
