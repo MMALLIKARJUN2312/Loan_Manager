@@ -1,0 +1,16 @@
+CREATE TABLE loans (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  fullName VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  phone VARCHAR(20) NOT NULL,
+  dob DATE NOT NULL,
+  address TEXT NOT NULL,
+  employmentType VARCHAR(100) NOT NULL,
+  income DECIMAL(10, 2) NOT NULL,
+  loanType VARCHAR(100) NOT NULL,
+  loanAmount DECIMAL(10, 2) NOT NULL,
+  loanTenure INT NOT NULL,
+  loanPurpose TEXT NOT NULL,
+  agreeToTerms BOOLEAN NOT NULL,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
