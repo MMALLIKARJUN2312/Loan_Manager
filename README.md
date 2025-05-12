@@ -12,43 +12,44 @@ This project is built using modern technologies — **React + Vite + TypeScript*
 
 loan-manager/
 │
-├── frontend/                         # Frontend (React + Vite + TypeScript)
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ApplicationForm/      # User loan application form
-│   │   │   │   ├── ApplicationForm.tsx
-│   │   │   │   └── ApplicationForm.css
-│   │   │   ├── VerifierDashboard/    # Dashboard for loan verifiers
-│   │   │   │   ├── VerifierDashboard.tsx
-│   │   │   │   └── VerifierDashboard.css
-│   │   │   ├── AdminDashboard/       # Dashboard for admin overview
-│   │   │   │   ├── AdminDashboard.tsx
-│   │   │   │   └── AdminDashboard.css
-│   │   │   ├── UserDashboard/        # Dashboard for users to track loans
-│   │   │   │   ├── UserDashboard.tsx
-│   │   │   │   └── UserDashboard.css
-│   │   ├── App.tsx
-│   │   ├── main.tsx
-│   │   └── index.css
-│   ├── index.html
-│   ├── tsconfig.json                # TypeScript configuration
-│   └── vite.config.ts               # Vite bundler configuration
+├── frontend/ # Frontend (React + Vite + TypeScript)
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── ApplicationForm/ # User loan application form
+│ │ │ │ ├── ApplicationForm.tsx
+│ │ │ │ └── ApplicationForm.css
+│ │ │ ├── VerifierDashboard/ # Dashboard for loan verifiers
+│ │ │ │ ├── VerifierDashboard.tsx
+│ │ │ │ └── VerifierDashboard.css
+│ │ │ ├── AdminDashboard/ # Dashboard for admin overview
+│ │ │ │ ├── AdminDashboard.tsx
+│ │ │ │ └── AdminDashboard.css
+│ │ │ ├── UserDashboard/ # Dashboard for users to track loans
+│ │ │ │ ├── UserDashboard.tsx
+│ │ │ │ └── UserDashboard.css
+│ │ ├── App.tsx
+│ │ ├── main.tsx
+│ │ └── index.css
+│ ├── index.html
+│ ├── tsconfig.json # TypeScript configuration
+│ └── vite.config.ts # Vite bundler configuration
 │
-├── server/                           # Backend (Node.js + Express + TypeScript)
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.ts                # MySQL database connection
-│   │   ├── controllers/
-│   │   │   └── loanController.ts    # Logic to handle API requests
-│   │   ├── routes/
-│   │   │   └── loanRoutes.ts        # API route definitions
-│   │   ├── app.ts                   # Express app setup
-│   │   └── server.ts                # Entry point to start the server
-│   ├── .env                         # Environment variable config
-│   ├── .gitignore
-│   ├── package.json
-│   └── tsconfig.json                # TypeScript config for backend
-│    └── vite.config.json
+├── backend/ # Backend (Node.js + Express + TypeScript)
+│ ├── src/
+│ │ ├── config/
+│ │ │ └── db.ts # MySQL database connection
+│ │ ├── controllers/
+│ │ │ └── loanController.ts # Logic to handle API requests
+│ │ ├── routes/
+│ │ │ └── loanRoutes.ts # API route definitions
+│ │ ├── app.ts # Express app setup
+│ │ └── server.ts # Entry point to start the server
+│ ├── .env # Environment variable config
+│ ├── .gitignore
+│ ├── package.json
+│ └── tsconfig.json # TypeScript config for backend
+│ └── vite.config.json
+│
 └── README.md
 
 ---
