@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for Loan Manager Application",
+  "keywords": [
+    "backend",
+    "loan",
+    "manager"
+  ],
+  "homepage": "https://github.com/MMALLIKARJUN2312/Loan_Manager#readme",
+  "bugs": {
+    "url": "https://github.com/MMALLIKARJUN2312/Loan_Manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMALLIKARJUN2312/Loan_Manager.git"
+  },
+  "license": "ISC",
+  "author": "Mallikarjun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
